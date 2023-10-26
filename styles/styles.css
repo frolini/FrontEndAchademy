@@ -18,23 +18,5 @@
     color:   #000000;
     font-weight: 600;
     font-size: 18px;
-    line-height: 25px;
-    text-decoration: none;
     
-}
-
-.page-header__user-htn {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 15px 40 px;
-    background-color: transparent;
-    border: 1px solid #1f1e1e;
-    font-size: 16px;
-    line-height: normal;
-    font-weight: 600;
-    color: #1f1e1e;
-}
-
-.page-footer {
-
 }
