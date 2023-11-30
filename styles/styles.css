@@ -81,8 +81,8 @@
     padding-top: 147px;
 }
 
-.main-header__title {
-    margin: 0 0 70;
+.main-header__title,
+.main-header__text {
     padding-left: 40px;
     padding-right: 40px;
     text-align: center;
@@ -93,7 +93,10 @@
     line-height: normal;
     color: #1f1e1e;
 
+}
 
+.main-header__title {
+    margin: 0 0 70;
 }
 
 .main-header {
