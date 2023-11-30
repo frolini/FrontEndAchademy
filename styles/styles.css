@@ -96,10 +96,11 @@
 }
 
 .main-header__title {
-    margin: 0 0 70;
+    margin: 0 0 70px;
 }
 
 .main-header__text {
+    margin: 0 auto;
     max-width: 948px;
     width: 100%;
 }
@@ -120,9 +121,9 @@
 
 .main-header__img {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
     object-fit: contain;
 }
