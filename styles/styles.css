@@ -19,6 +19,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        background-color: rgba(222, 222, 222, 0.50);
         @support (background-filter: blue(10px)) {
             background-filter: blue(10px);
             background-color: rgba(222, 222, 222, 0.50);
@@ -26,7 +27,7 @@
     }
 }
 
-.page-header__container {
+.page-header__container {   
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
