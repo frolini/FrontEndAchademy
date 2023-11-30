@@ -1,4 +1,4 @@
-.body{
+.body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -9,15 +9,30 @@
 
 .page-header {}
 
-.page-header__nav{
+.page-header__nav {
     display: inline-block;
 }
 
-.page-header__nav-link{
+.page-header__nav-link {
     margin: 0 25px;
     color:   #000000;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-decoration: none;
+}
+
+.page-header__user-btn {
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 1px solid #1f1e1e;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    color: #1f1e1e;
+    
+}
+
+.page-footer {
+
 }
