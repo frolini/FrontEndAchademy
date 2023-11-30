@@ -29,11 +29,11 @@
         }
 }
 .page-header__container {   
-    margin: 0 auto;
+    box-sizing: border-box;
     position: relative;
+    margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
-    box-sizing: border-box;
     max-width: 1414px;
     width: 100%;
 
@@ -53,7 +53,7 @@
 
 .page-header__nav {
     display: inline-block;
-    margin-right: 237px;
+    margin-right: 230px;
 }
 
 .page-header__nav-link {
@@ -75,6 +75,29 @@
     line-height: normal;
     font-weight: 600;
     color: #1f1e1e;
+}
+
+.home {
+    padding-top: 147px;
+}
+
+.main-header__title {
+    margin: 0 0 70;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: normal;
+    color: #1f1e1e;
+
+
+}
+
+.main-header {
+    padding: 100px 0;
 }
 
 .page-footer {
